@@ -1,9 +1,13 @@
 
 
 
-function App() {
+function App() {  
   return (
-    <h1>Hello, World</h1>
+    <>
+      <p>Hello, World</p>
+      <label htmlFor="bar">bar</label>
+      <input type="text" onChange={() => {console.log("I am clicked!")}}/>
+    </>
   );
 }
 
